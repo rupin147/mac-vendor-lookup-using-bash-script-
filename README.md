@@ -18,5 +18,5 @@ how to run the script
   
   
 click here :-  
-                             *http://rupinp.blogspot.in/2016/05/mac-vendor-lookup-using-bash-script.html
+                             *http://rupinp.blogspot.in/2016/05/mac-vendor-lookup-using-bash-script.html*
 
