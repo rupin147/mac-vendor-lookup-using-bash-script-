@@ -1,0 +1,21 @@
+#!/bin/bash
+if [ $# -eq 0 ]
+then
+echo "Enter only first three octet of mac adddress 
+        for ex - xx-xx-xx or xx:xx:xx"
+else
+touch output.txt
+trans=`echo "$1" | tr ':' '-'`
+upper=`echo "$trans" | tr '[a-z]' '[A-Z]'`
+cat oui.txt | grep $upper | cut -f3 > output.txt
+cat oui1.txt | grep $upper | cut -f3 > output.txt
+cat oui2.txt | grep $upper | cut -f3 > output.txt
+outfile=output.txt
+if [ -s $outfile ]
+then
+ cat output.txt
+else
+  echo "Enter only first three octet of mac adddress 
+        for ex - xx-xx-xx or xx:xx:xx"
+fi
+fi
