@@ -17,4 +17,6 @@ how to run the script
   download the script and above three file and save three files with name convention as - oui.txt , oui1.txt oui2.txt keep all file in same directory 
   
   
-click here :- 
+click here :-  
+                             *http://rupinp.blogspot.in/2016/05/mac-vendor-lookup-using-bash-script.html
+
